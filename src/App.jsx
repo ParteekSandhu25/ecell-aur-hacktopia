@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Background from './Background.jsx';
 const App = () => {
-  return (
-    <div>App</div>
-  )
+    return (
+        <>
+            <Background />
+        </>
+    )
 }
 
 export default App;
